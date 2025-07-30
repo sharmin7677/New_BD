@@ -1,0 +1,287 @@
+
+/* Shared */
+.btn-primary{
+    cursor: pointer;
+    color: white;
+    font-weight: 600px;
+    font-size: 18px;
+    padding: 17px 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    margin-top: 18px;
+}
+
+.fira-sans-thin {
+    font-family: "Fira Sans";
+    
+  }
+  body{
+    
+    background-color:  #f8f9fa;
+    }
+header{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 16px 0;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-signIn{
+    padding: 15px 30px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 106, 80)
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    background-color: rgb(198, 228, 214);
+    padding: 80px 60px;
+    margin-top: 24px;
+}
+.hero-text-container{
+    width: 50%;
+}
+.hero-text-container h4 {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hero-img{
+   width: 50%;
+}
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.pillars-container{
+    display: flex;
+    gap: 24px;
+  
+}
+
+.pillar-card{
+    width: 250px;
+    height: 230px;
+    padding: 24px;
+    /* border:  1px solid rgba(14, 14, 14, 0.15); */
+    border-radius: 16px;
+    background:rgb(255, 255, 255);
+    box-shadow: 4px 2px 12px rgba(0, 0, 0, 0.15);
+   
+}
+
+.description{
+    width: 250px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-subtitle{
+    color: rgba(14, 14, 14, 0.7);
+    
+}
+.vision-cards{
+    display: flex;
+    gap: 24px;
+   
+}
+.vision-card{
+    width: 410px;
+    height: 280px;
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision-btn{
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+}
+.digital-card{
+    background:rgba(84, 144, 245, 0.2);
+}
+.vision-description{
+    width: 346px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.digital-btn{
+    background-color: rgb(84, 144, 245);
+}
+.green-card{
+    background:rgb(198, 228, 214);
+}
+.green-btn{
+    margin-top: 48px;
+    background-color: rgb(9, 161, 92);
+    
+}
+.modern-card{
+background-color: rgb(247, 235, 207);
+
+}
+.modern-btn{
+    margin-top: 46px;
+    background-color: rgb(255, 194, 57);
+    
+}
+.chief-speech{
+    
+    position: relative;
+    margin: 48px 0;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 4px 2px 12px rgba(0, 0, 0, 0.15);
+}
+
+.quote-bg{
+    position: absolute;
+    top: 24px;
+}
+.opinion-card{
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 4px 2px 12px rgba(0, 0, 0, 0.15);
+}
+.qna{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 0 24px;
+    background-color: rgb(198, 228, 214);
+}
+.qn-opinion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 0 24px;
+}
+#qn1{
+    padding: 10px 24px;
+    border-radius: 4px;
+    background-color: rgba(9, 161, 92, 0.15);
+}
+.news-container{
+    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background-color:rgb(255, 255, 255) ;
+}
+.sl-img{
+    border-radius: 24px;
+    height: 280px;
+    width: 400px;
+}
+.dnt{
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-description{
+    color: rgba(14, 14, 14, 0.7);
+}
+.text-center{
+   
+    text-align: center;
+}
+.text-center p{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.donation-container{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.donate-cards{
+    display: flex;
+    gap: 24px;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.card{
+   
+    width: 240px;
+    height: 80px;
+    padding: 40px;
+    border-radius: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: rgb(255, 255, 255);
+    margin: 24px;
+}
+.card p{
+    font-size: 40px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+.secondCard {
+    background-color: rgb(198, 228, 214);
+}
+.other-amount{
+  
+width: 1032px;
+margin: 0 auto;
+height: 48px;
+padding: 20px 40px;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background-color: rgb(255, 255, 255);
+}
+.other-amount p{
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+   
+}
+.newsletter-container{
+    text-align: center;
+    padding: 80px 100px;
+    border-radius: 24px;
+    background-color: rgb(198, 228, 214);
+}
+input[type="email"]{
+    width: 180px;
+    padding: 18px 200px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    background-color: rgb(255, 255, 255);
+}
+input[type="submit"]{
+    padding: 17px 34px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgb(0, 106, 80);
+}
+.form-box{
+    display: flex;
+   justify-content: center;
+}
+.footer-box{
+    padding: 50px 160px;
+    text-align: center;
+    margin-top: 64px;
+    background-color: rgb(255, 255, 255);
+}
+.icon{
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
